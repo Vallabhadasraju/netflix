@@ -1,0 +1,441 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Encode+Sans&family=Montserrat:wght@200&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+ font-family: 'Roboto', sans-serif; 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: #000;
+    color: #fff;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(assets/jpg/banner/backgroundimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: cover;
+    padding: 10px;
+    position: relative;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 10px 0px;
+}
+nav .logo{
+    width: 120px;
+    object-fit: contain;
+    margin: 10px 30px 10px 40px;
+}
+nav button{
+    border: none;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+}
+nav .language{
+    width: 130px;
+    background-color: #000;
+    background: transparent;
+    border: 1px solid #777;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 3px;
+    margin: 16px 32px 5px 15px;
+    padding: 3px 15px;
+
+
+}
+nav .language svg{
+    margin: 5px 10px 0px -10px;
+}
+nav .language i{
+    margin-left: 3px;
+    font-size: 0.7rem;
+}
+nav .signin{
+    background-color: rgb(228, 44, 44);    
+    color: #fff;
+    border:none;
+    /* height: 40px; 
+    font-size: 0.9rem;
+    font-weight: 700;
+    
+    border-radius: 0.2rem;
+    padding: 10px 16px 4px 16px ;
+    margin:-46px 34px -3px -23px;
+}
+nav .signin a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+
+}
+nav .signin:hover{
+    background-color: rgb(179,21,21);
+}
+.header-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.header-title h1{
+    font-size: 3.6rem;
+    font-weight: 900px;
+    line-height: 70px;
+    max-width: 700px;
+    /* margin-bottom: 20px; 
+    letter-spacing: 2px;
+    line-height: 70px;
+}
+.header-title h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.header-title p{
+    color: hsl(0,5%,72%);
+    font-weight: 400;
+}
+.email-form{
+    /* margin: 2% 0%; 
+    width: 680px;
+    display: flex;
+}
+.email-form input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    width: 800px;
+    height: 56px;
+    background-color: transparent;
+    border: 1px solid #d4d3d3;
+    border-radius: 3px;
+    margin-right: 7px;
+    
+}
+.email-form input::placeholder{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0PX 10PX;
+    color: #fff;
+}
+.email-form button{
+    background-color: #E50914;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    /* height: 40px; 
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 15px 30px;
+    border-radius:3px ;
+
+}
+svg{
+    padding:0px 1px;
+    font-size:50px;
+}
+i{
+    padding: 4px 5px;
+}  */ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(assets/jpg/banner/backgroundimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+nav .logo{
+    width: 150px;
+}
+nav button{
+    border: none;
+    outline: none;
+}
+nav .language{
+    background: transparent;
+    border: 2px solid #666;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 3px;
+    margin: 10px 20px 10px 0px;
+    padding: 6px 36px;
+    font-family: 'Roboto', sans-serif;
+}
+nav .Signin{
+    background-color:#E50914;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 1rem;
+    margin: 10px 50px 10px 0px;
+    padding: 8px;
+    
+}
+nav .Signin:hover{
+    cursor: pointer;
+}
+.header-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.header-title h1{
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 70px;
+    max-width: 1300px;
+    margin-bottom: 20px;
+}
+.header-title h3{
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.email-form input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    width: 40%;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #d4d3d3;
+    border-radius: 3px;
+    margin-right: 7px;
+} 
+.email-form{
+    margin: 2% 0%;
+}
+.email-form button{
+    background-color: #E50914;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 15px 30px;
+    border-radius: 3px;
+}
+.email-form input::placeholder{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0px 10px;
+    color: #d4d3d3;
+}
+.container{
+    display: flex;
+}
+.container-title{
+    padding: 10% 6%;
+
+}
+.container .image{
+    margin-right: 10rem;
+    max-width:100%;
+    height: 400px;
+}
+.container .container-title h1{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-left: 0% 30%;
+}
+.container .container-title p{
+    font-size:1.4rem;
+    font-weight: 400;
+    padding-left: 0%;
+    padding-top: 3%;
+    max-width: 800px;
+}
+.container1{
+    display: flex;
+}
+.container-title{
+    padding: 10% 6%;
+
+}
+.container1 .image{
+    margin-left: 10rem;
+    max-width:100%;
+    height: 400px;
+}
+.container1 .container-title h1{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-left: 0% 20%;
+}
+.container1 .container-title p{
+    font-size:1.4rem;
+    font-weight: 400;
+    padding-left: 0%;
+    padding-top: 3%;
+    max-width: 800px;
+}
+.minibar{
+   max-width: 100%;
+   height: 10px;
+   background-color: #222;
+}
+.faq{
+    padding: 10px 12%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.faq h1{
+    font-weight: 600;
+    font-size: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.faq ul{
+    margin: 60px auto;
+    max-width: 1050px;
+    width: 100%;
+}
+.faq ul li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.faq ul li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    font-size: 1.3rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 3px;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 35px;
+    position: absolute;
+    right: 2%;
+}
+input[type="radio"]
+{
+    display: none;
+}
+.faq .content{
+    background-color: #434141;
+    text-align: center;
+    padding: 0% 2%;
+    max-height: 0;
+    overflow: hidden;
+}
+.address input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 32%;
+    width: 25%;
+    height: 48px;
+    background-color: transparent;
+    border: 1px solid #d4d3d3;
+    border-radius: 3px;
+    margin-right: 7px;
+} 
+.address{
+    margin: 7% 0%;
+}
+.address button{
+    background-color: #E50914;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 15px 30px;
+    border-radius: 3px;
+}
+.address input::placeholder{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0px 10px;
+    color: #d4d3d3;
+}
+.address h3{
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+footer{
+    padding: 40px 15px 10px;
+    border-top: 5px solid #333;
+    color: #666;
+}
+footer h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
+footer .row{
+    display: flex;
+    align-items: flex-start ;
+    padding: 10px 0px;
+}
+footer .col{
+    margin: 10px 50px;
+}
+footer .col a{
+    text-decoration:none;
+    color: #666;
+    font-size: 1rem;
+    display: block;
+    padding: 10px 0px;
+}
+.lang{
+    background: transparent;
+    border: 2px solid#666;
+    font-size: 1rem;
+    border-radius: 3px;
+    color: #666;
+    margin-left: 60px;
+    padding: 4px;
+}
+.country{
+    padding: 20px 60px;
+    font-size: 1rem ;
+    color: #666;
+    font-weight: 300;
+}
+i{
+    padding:4px;
+}

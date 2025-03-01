@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+}
+.banner1 .heading{
+    color: #fff;
+    padding: 2% 0%;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.banner{
+    /* background-image: linear-gradient(90deg, rgb(24, 24, 24) 10%, rgba(23, 23, 23, 0.98) 20%, rgba(23, 23, 23, 0.97) 25%, rgba(23, 23, 23, 0.95) 35%, rgba(23, 23, 23, 0.94) 40%, rgba(23, 23, 23, 0.92) 45%, rgba(23, 23, 23, 0.9) 50%, rgba(23, 23, 23, 0.87) 55%, rgba(23, 23, 23, 0.82) 60%, rgba(23, 23, 23, 0.75) 65%, rgba(23, 23, 23, 0.63) 70%, rgba(23, 23, 23, 0.45) 75%, rgba(23, 23, 23, 0.27) 80%, rgba(249, 249, 249, 0.15) 85%, rgba(230, 230, 230, 0.08) 90%, rgba(255, 255, 255, 0.03) 95%, rgba(255, 255, 255, 0)),url(assets/jpg/banner/banner.jpg); */
+    /* background-position: center center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* max-width: 100%; */
+    /* height: 100vh; */
+}
+.banner .banner-content{
+    padding: 5% 3% 1px ;
+}
+.banner .banner-content .banner-title h1{
+    letter-spacing: 3px;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5% 0% 0%;
+}
+.banner .banner-content .banner-title p{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 30px;
+    max-width: 500px;
+    padding: 2% 0%;
+    
+}
+.banner .banner-content .banner-title h3{
+    padding: 2% 0%;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.banner .banner-content .banner-title img{
+    height: 40% ;
+    width: 40%;
+}
+.banner .banner-content .banner-buttons{
+    display: flex;
+    margin-top: 25px;
+    padding: 5px;
+    background: linear-gradient(90deg,#333 5%,#181818 95%);
+    
+
+}
+.banner .banner-content .banner-buttons img{
+    height: 40px;  
+    margin: 0% 1%;
+   
+    
+}
+.banner .banner-content .banner-buttons h3{
+    text-align: center;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #fff;
+    padding: 1%;
+}
+.banner .banner-content .banner-buttons .join{
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 1% 3%;
+    font-size: 1.2rem;
+    margin-left: 60%;
+    transition: .5s;
+    
+}
+.banner .banner-content .banner-buttons .join:hover{
+    background-color: #fff;
+    color: #333;
+}
+.baner1 h1 .heading{
+    letter-spacing: 3px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-top: 50px;
+
+}
+.baner1 h3 .heading1{
+    color: #fff;
+}
+/* .banner .banner-content .banner-buttons .play{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 1% 2%;
+    font-size: 1.3rem;
+    margin-right: 10px;
+    transition: .5s;
+}
+.banner .banner-content .banner-buttons .play:hover{
+    background-color: #fff;
+    color: #333;
+}
+.banner .banner-content .banner-buttons .info{
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 1% 2%;
+    font-size: 1.3rem;
+    margin-right: 5px;
+    transition: .5s;
+}
+.banner .banner-content .banner-buttons .info:hover{
+    background-color: #333;
+    color: #fff;
+} */
+section .posters{
+    margin: 1% 2%;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+
+}
+section .posters::-webkit-scrollbar{
+    display: none;
+}
+section .posters .poster-title .poster{
+    
+    height: 200px;
+    margin: 0% 5px;
+    transition: transform 420ms;
+}
+section .posters .poster-title h3{
+    color: #ffff;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;
+}
+section .posters .poster:hover{
+    transform: scale(1.09);
+}
+section h1{
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 3% 3%;
+}
+nav .navbar ul li{
+    display: flex;
+    color: #fff;
+    padding: 3% 5%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 2px 20px;
+    text-align: center;
+    
+}
+nav .navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+nav .navbar ul{
+    display: flex;
+    padding: 3% 4% ;
+    margin: 0px 20px;
+
+}
+nav .logo{
+    width: 100px;
+    object-fit: contain;
+    margin: 1px 20px;
+
+}
+/* nav .profile{
+    width: 60px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 2px solid #ff0000;
+    margin: 1px 20px;
+} */
+nav{
+    background-color: rgba(0,0,0,.75);
+    position: fixed;
+    display: flex;
+    width: 100%;
+    /* height:70px ; */
+    z-index: 1;
+    justify-content: space-between;
+    /* background-color: #111; */
+    padding: 1px 3%;
+
+    
+}
+nav .navbar{
+    display: flex;
+    color: #fff;
+}
+nav .navbar p {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    display: flex; 
+    margin: 20px 10px;
+    justify-content: space-between;
+   
+}
+nav .Signin{
+    background-color:transparent;
+    border: 1px solid #888;
+    border-radius:2px ;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    margin: 10px 10px 10px 0px;
+    padding: 9px 12px;
+    
+}
+nav .Signin:hover{
+background-color: #424141;
+}
+nav .join1{
+    background-color:#E50914;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    margin: 10px 10px 10px 0px;
+    padding: 9px 12px;
+}
+nav .join1:hover{
+    background-color: #d2121c;
+}
+footer{
+    padding: 50px 15px 10px;
+    border-top:5px solid #333 ;
+    color: #666;
+}
+footer h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+
+}
+footer .row{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 0px;
+}
+
+footer .col{
+    margin: 10px 50px;
+
+}
+footer .col a{
+    text-decoration: none;
+    color: #666;
+    font-size: 1rem;
+    display: block;
+    padding: 10px;
+}
+.lang{
+    background: transparent;
+    border: 2px solid #666;
+    font-size: 1rem;
+    color: #666;
+    border-radius: 3px;
+    margin-left: 60px;
+    padding: 4px ;
+
+}
+.country{
+    padding: 20px 60px;
+    font-size: 1rem;
+    color: #666;
+    font-weight: 400;
+}
+i{
+    padding: 4px;
+}

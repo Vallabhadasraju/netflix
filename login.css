@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&family=Montserrat:wght@200&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&family=Montserrat:wght@200&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #111;
+    color: #fff;
+}
+body::before{
+    content: "" ;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background: url(assets/jpg/login/banner.jpg);
+    background-position: center;
+}
+.wrapper{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 440px;
+   padding: 60px;
+   background-color: black;
+   border-radius: 4px;
+   transform: translate(-50%,-50%);
+   background-position: center;  
+}
+.wrapper h1{
+    color: #fff;
+    font-size: 2rem;
+}
+.wrapper form{
+    margin: 25px 0px 65px;
+}
+.wrapper input{
+    height: 40px;
+    width: 100%;
+    background-color: #444;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 1rem;
+    margin: 2% 1%;
+}
+.wrapper input::placeholder{
+    color: #a7a3a3;
+    left: 20px;
+    top: 15px;
+    font-size: 1rem;
+    padding: 10% 4%;
+}
+.wrapper form button{
+    width: 100%;
+    background-color: rgb(209, 30, 30);
+    color: #fff;
+    padding: 10px 40px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin: 4% 1%;
+}
+.wrapper form button:hover{
+    background-color: red;
+}
+.forms-help{
+    display: flex;
+    justify-content: space-between;
+}
+.forms-title{
+    display: flex;
+}
+form input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+
+}
+.forms-help a{
+    text-decoration: none;
+    color: #b7b1b1;
+}
+label{
+    color:  #b7b1b1;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 5px 5px;
+}
+p{
+    margin: 5% 0%;
+    color:  #b7b1b1;
+}
+small{
+    color:  #b7b1b1;
+    margin: 1% 0%;
+}
+p a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0% 3%;
+}
+small a{
+    text-decoration: none;
+    color: blue;
+}
+nav .logo{
+    width: 120px;
+    object-fit: contain;
+    margin: 1% 3%;
+
+}

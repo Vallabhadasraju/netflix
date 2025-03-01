@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #222;
+  }
+  /* =============================================  BANNER  ========================================================== */
+  
+  .banner {
+    background-image: linear-gradient(90deg, #181818 10%, hsla(0, 0%, 9%, 0.98) 20%, hsla(0, 0%, 9%, 0.88) 25%, hsla(0, 0%, 9%, 0.75) 35%, hsla(0, 0%, 9%, 0.48) 40%, hsla(0, 0%, 9%, 0.15) 45%, hsla(0, 0%, 9%, 0.08) 50%, hsla(0, 0%, 9%, 0.07) 55%, hsla(0, 0%, 9%, 0.05) 60%, hsla(0, 0%, 9%, 0.03) 65%, hsla(0, 0%, 9%, 0.02) 70%, hsla(0, 0%, 9%, 0.02) 75%, hsla(0, 0%, 9%, 0.01) 80%, hsla(0, 0%, 9%, 0.001) 95%, hsla(0, 0%, 9%, 0)),
+    url(../assets/jpg/banner/Deathnote.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+  }
+  
+  .banner .banner-content {
+    padding: 15% 3%;
+  }
+  
+  .banner .banner-content .banner-title img {
+    width: 30%;
+    margin: -40px 0px 20px 0px;
+    padding: 0px 30px 30px;
+  }
+  
+  .banner .banner-content .banner-title h1 {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    color: #fff;
+    padding: 0px 33px;
+  
+  }
+  
+  .banner .banner-content .banner-title h4 {
+    color: rgb(150, 150, 150);
+    padding: 30px;
+    margin-top: -20;
+    font-weight: 300;
+  }
+  
+  .banner .banner-content .banner-title p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    font-size: 1rem;
+    max-width: 600px;
+    margin-left: 30px;
+  }
+  
+  .banner .banner-content .banner-buttons .info {
+    background-color: #db1616;
+    color: #f8f8f8;
+    border: none;
+    border-radius: 5px;
+    padding: 1% 2%;
+    font-size: 15px;
+    margin: 8px 30px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .banner .banner-content .banner-buttons .info:hover {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .banner .banner-content .banner-buttons .play {
+    background-color: #222;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 1% 2%;
+    font-size: 15px;
+    margin-right: 8px 5px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .banner .banner-content .banner-buttons .play:hover {
+    background-color: #db2424;
+    color: #f7f1f1;
+  }
+  /* =============================================  NAV BAR  ========================================================== */
+  
+  nav .logo {
+    width: 120px;
+    object-fit: contain;
+    margin: -14px 20px;
+  }
+  
+  nav .profile {
+    width: 60px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 2px solid #f5f0f0;
+    margin: 15px 20px;
+    color: #222;
+  }
+  
+  nav {
+    display: flex;
+    width: 100%;
+    z-index: 1;
+    justify-content: space-between;
+    position: fixed;
+  }
+  
+  .nav-buttons ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-buttons li {
+    color: #fff;
+    margin: 20px 15px;
+    cursor: pointer;
+    font-size: large;
+  }
+  /* =============================================  TRAILER  ========================================================== */
+  
+  .trailer {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .trailer h2 {
+    margin: 30px 30px;
+    font-size: 3rem;
+    color: #f5f0f0;
+  }
+  
+  .trailer iframe {
+    margin: 15px 50px;
+  }
+  
+  .trailer .movie-desc h2 {
+    font-size: 2rem;
+    margin: 125px 0px 30px 0px;
+    color: #f1f1f1;
+  }
+  
+  .trailer .movie-desc p {
+    max-width: 900px;
+    color: #f1f1f1;
+    font-size: medium;
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+  }
+  /* =============================================  FOOTER  ========================================================== */
+  
+  footer{
+    padding: 50px 15% 10px;
+    border-top: 5px solid #333;
+    color: #666;
+  }
+  footer h1{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+  }
+  footer .col{
+    margin: 10px 50px;
+  }
+  footer .row{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 0px;
+  }
+  footer .col a{
+    text-decoration: none;
+    color: #666;
+    font-size: 1rem;
+    display: block;
+    padding: 10px;
+  }
+  .language{
+    background: transparent;
+    border: 2px solid #666;
+    font-size: 1rem;
+    color: #666;
+    border-radius: 3px;
+    margin-left: 60px;
+    padding: 4px;
+  }
+  .country{
+    padding: 20px 60px;
+    font-size: 1rem;
+    color: #666;
+    font-weight: 400;
+  }
+  i{
+    padding: 4px;
+  }
+  
